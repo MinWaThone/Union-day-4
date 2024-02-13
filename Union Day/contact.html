@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resposive Layout</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Favicon(1).ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Union Day</h1>
+      <p>Pyi Daung Su Nay</p>
+    </div>
+    <!--This is Nav bar-->
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="unionday.html">Union Day</a>
+      <a href="contact.html">Contact</a>
+      <div class="search">
+        <form>
+          <input
+            style="
+              width: 300px;
+              border-radius: 30px;
+              margin-bottom: 10px;
+              margin-top: 10px;
+            "
+            type="text"
+            placeholder="Search..."
+          />
+      
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div style="text-align: center" class="us">
+          <br />
+          <h2 class="us">Contact Us</h2>
+        </div>
+        <div class="column">
+          <img src="Images/flag.png" style="width: 100%" class="bagan-photo" />
+        </div>
+        <div class="column">
+            <form action="/action_page.php">
+              <label for="fname" class="label1">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+                class="label"
+              />
+              <label for="lname" class="label1">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+                class="label"
+             >
+              <label for="country" class="label1"></label>
+              <label for="subject" class="label1">About</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Type here..."
+                style="height: 170px"
+                class="label"
+              ></textarea>
+              <input type="submit" value="Submit" class="label" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <center><p>&copy;2024 Min Wa Thone | All Rights Reserved</p></center>
+      </footer>
+    </body>
+  </html>
